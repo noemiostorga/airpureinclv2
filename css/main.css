@@ -204,10 +204,13 @@ NAV
 }
 .phone{
     font-size: 20px;
-    color: white;
     font-weight: bold;
     margin-top: 20px;
+    text-decoration: none;
+}
 
+.phone a {
+    color: white;
 }
 #pill a{
     color: red;
@@ -256,24 +259,33 @@ NAV
 LOGOS
 ***********************/
 #main-logo{
-    background: url('../img/head1.jpg') no-repeat;
-    height: 200px;
-    width: 100%;
+  background: url('../img/logo.png') no-repeat;
+    height: 171px;
+    width: 192px;
+    /* width: 100%; */
+    margin-top: -24px;
+    margin-bottom: -27px;
+}
 }
 
 
 
 
 .logo{
-    font-size: 3.125em;
     color: white;
-
 }
 .logo:hover{
     color: #F44336;
 
 }
 
+.social{
+    color: white;
+}
+
+.social:hover {
+    color:#F44336;
+}
 /* logo about*/
 .logo_a{
     font-size: 10em;
@@ -282,7 +294,7 @@ LOGOS
     padding-top: 70px;
 }
 /********************
-SECTION: ONE;
+SECTION: ONE; INDEX
 ***********************/
 #s_one{
     background: url('../img/clean5.jpg') no-repeat;
@@ -586,6 +598,13 @@ DRY CSS
 .col_container{
     margin: auto 10%;
 }
+
+.list li{
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: lighter;
+
+}
 /*size*/
 .h {
     font-size: 2em ;
@@ -773,18 +792,118 @@ SECTION HEADER
     width: 100%;
     background-attachment: fixed;
 }
-/********************
+
+#s_three{
+    background: url('../img/section2.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+#s_four{
+    background: url('../img/section4.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+.banner_4{
+    background: url('../img/section4-2.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+.banner_4t{
+    margin-top: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: transparent;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    text-shadow: 10px 10px 10px black;
+}
+
+#s_five {
+    background: url('../img/thermostat.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.banner_5{
+    background: url('../img/dust.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    background-attachment: fixed;
+    color: white;
+    font-size: 2em;
+}
+ #s_6{
+    background: url('../img/room.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    background-attachment: fixed;
+ }
+.banner_6{
+    background: url('../img/uv.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    background-attachment: fixed;
+    color: white;
+    font-size: 2em;
+}
+
+.banner_6t {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-weight: lighter;
+}
+.banner_7{
+    background: url('../img/lv.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    background-attachment: fixed;
+    color: white;
+    font-size: 2em;
+}
+/**************************************************************************
 SECTION 2.1
-***********************/
+**************************************************************************/
 .border_bottom{
     padding-bottom: 10px;
     border-bottom: 1px solid #E5E4E2;
     margin: 10px 10%;
 }
 /********************
-SECTION 2.2
+SECTION AIR DUCT CLEANING
 ***********************/
 .banner_2{
+    background: url('../img/debris.png') ;
+    width: 100%;
+    color: white;
+    font-weight: lighter;
+    background-attachment: fixed;
+    padding: 20px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.banner_2t{
+    margin-top: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: transparent;
+    color: black;
+
+}
+.page-break {
+    font-size: 3em;
+    color: #950005;
+}
+
+.banner2-2{
     background: url('../img/banner.jpg') ;
     width: 100%;
     color: white;
@@ -793,17 +912,17 @@ SECTION 2.2
     padding: 20px;
     font-size: 2em;
     text-align: center;
+
 }
 
-.banner_2t{
+
+.banner2-2t{
     margin-top: 40px;
     padding-top: 5px;
     padding-bottom: 5px;
     background: transparent;
-}
-.page-break {
-    font-size: 3em;
-    color: #950005;
+    color: white;
+
 }
 /********************
 SECTION 2 FORM
@@ -812,6 +931,10 @@ SECTION 2 FORM
      border: none;
      border-radius: 100%;
 }
+
+/********************
+SECTION DRYER VENT CLEANING
+***********************/
 
 
 /********************
@@ -857,7 +980,10 @@ CONTACT US
 .bring_d{
     margin-top: 59px;
 }
+.bring_d2{
+    display: inline;
 
+}
 
 .c_icon{
     font-size: 2.5em;
@@ -898,6 +1024,7 @@ CONTACT US
 
 }
 
+
 .service-box:hover {
    background: #283970;
 
@@ -911,7 +1038,36 @@ CONTACT US
     text-decoration: none;
 
 }
+/* service box service pages*/
 
+.service-box2{
+    background: none repeat scroll 0 0 #f44336;
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    line-height: 20px;
+    padding: 31.3px 0px 65px !important;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    list-style: none;
+    float: right;
+    vertical-align: top;
+    margin: 5px;
+    float:left;
+    width: 30%;
+
+}
+.service-box2:hover {
+   background: #283970;
+
+
+}
+.service-box2 a{
+     color: #fff;
+    text-decoration: none;
+
+}
 /********************
 COUPON
 ***********************/
@@ -920,10 +1076,10 @@ COUPON
 
 }
 
-.coupon_sheets{
-    background: url('../img/coupon.jpg');
-    height: 300px;
-    width: 50%;
+.coupon{
+    background: url('../img/coupon.jpg')no-repeat;
+    height: 400px;
+    width: 90%;
     box-shadow: 10px 10px 10px 10px #E5E4E2;
     color: white;
     font-size: 3em;
@@ -932,6 +1088,32 @@ COUPON
     text-align: center;
     display: inline-block;
 
+}
+
+.coupon2{
+      background: url('../img/coupon2.jpg')no-repeat;
+    height: 400px;
+    width: 90%;
+    box-shadow: 10px 10px 10px 10px #E5E4E2;
+    color: white;
+    font-size: 3em;
+    margin: 5%;
+    border: 5px dashed black;
+    text-align: center;
+    display: inline-block;
+}
+
+.coupon3{
+      background: url('../img/coupon3.jpg')no-repeat;
+    height: 430px;
+    width: 40%;
+    box-shadow: 10px 10px 10px 10px #E5E4E2;
+    color: white;
+    font-size: 3em;
+    margin: 5%;
+    border: 5px dashed black;
+    text-align: center;
+    display: inline-block;
 }
 /* ==========================================================================
    Helper classes
