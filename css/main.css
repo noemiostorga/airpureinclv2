@@ -211,6 +211,9 @@ NAV
 
 .phone a {
     color: white;
+    font-size: 1.6em;
+    position: relative;
+    right:80px;
 }
 #pill a{
     color: red;
@@ -259,13 +262,14 @@ NAV
 LOGOS
 ***********************/
 #main-logo{
-  background: url('../img/logo.png') no-repeat;
-    height: 171px;
-    width: 192px;
-    /* width: 100%; */
-    margin-top: -24px;
-    margin-bottom: -27px;
-}
+ 
+    background: url('../img/logo3.png') no-repeat;
+    height: 138px;
+    width: 320px;
+    position: absolute;
+    top: 0px;
+    left: -33px;
+    background-position: center center;
 }
 
 
@@ -560,7 +564,14 @@ FOOTER
     padding: 15px;
 }
 
+.c_p{
+text-decoration: none;
+color: white;
+}
+.c_p:hover{
 
+color: white;
+}
 
 /********************
 FONT AWESOME
